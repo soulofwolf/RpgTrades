@@ -1,0 +1,9 @@
+name: RpgTrades
+main: com.vartala.soulofw0lf.rpgtrades.RpgTrades
+version: 1.6
+author: RC2K7.soulofw0lf
+description: A in game trade system.
+
+commands:
+  trade:
+    description: Main Menu

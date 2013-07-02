@@ -1,0 +1,34 @@
+#whether players have to be within a certain distance to trade with one another
+onlyLocalTrades: true
+
+#if only local trades is true, this is how close a player has to be to trade
+TradeDistance: 10
+
+#how many seconds before an impending trade invite is cancelled
+inviteTimeOut: 30
+
+#words to display to players under different circumstances. 
+#These are considered self explanatory so won't be elaborated upon
+#colors can be used with @# a.k.a. @2 = green
+#the first five are wrapped in '' so that the initial space will be placed in messages after a player name. 
+Terms:
+  Has Invited: ' Has Been Invited To Trade.'
+  Is Invited: ' Has Invited You To Trade. please use @2trade accept @for @4trade deny.'
+  Accepted:  ' Accepted the trade.'
+  Denied: ' Denied the Trade.'
+  Too Far Away: ' is too far away!'
+  Not In Trade: you are not in a trade!
+  Error: Syntax Error use accept deny or invite!
+  NoPerm: You do not have permission to trade!
+  Missing Player: Cannot find player.
+  Same World: This player must be on the same world as you!
+  Complete: Trade Completed.
+  Block Accept: Accept
+  Block Deny: Deny
+  Block Waiting: Waiting.
+  Block Confirmed: Confirm
+  StubMessage: RpgTrades
+  #do not use colors in these, these are the commands players have to type in to use the trade features.
+  Command Invite: invite
+  Command Accept: accept
+  Command Deny: deny
